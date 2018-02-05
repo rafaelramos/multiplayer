@@ -6,3 +6,6 @@
 
 # vim artifacts
 **.swp
+
+# Node dependencies
+node_modules
