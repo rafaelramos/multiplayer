@@ -1,0 +1,29 @@
+{
+  "name": "Multiplayer practice",
+  "version": "1.0.0",
+  "description": "Michelada.io test project Feb 2018",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rafaelramos/multiplayer"
+  },
+  "keywords": [
+    "Michelada",
+    "Multiplayer",
+    "Node.js",
+    "Socket.io",
+    "Phaser"
+  ],
+  "author": "El Gil y el Rafa",
+  "license": "MIT",
+  "bugs": "https://github.com/rafaelramos/multiplayer/issues",
+  "homepage": "https://github.com/rafaelramos/multiplayer",
+  "dependencies": {
+    "express": "^4.15.2",
+    "socket.io": "^1.7.3"
+  }
+}
