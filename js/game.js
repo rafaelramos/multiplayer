@@ -7,8 +7,9 @@ Game.init = function() {
 
 Game.preload = function() {
   // Load assets
-  game.load.tilemap('map', 'assets/map/example_map.json', null, Phaser.Tilemap.TILED_JSON);
-  game.load.spritesheet('tileset', 'assets/map/tilesheet.png', 32, 32);
+  game.load.tilemap('map', 'assets/map/map2.json', null, Phaser.Tilemap.TILED_JSON);
+  game.load.spritesheet('tileset', 'assets/map/tileset1.png', 50, 50);
+  game.load.spritesheet('tileset2', 'assets/map/tileset2.png', 50, 50);
   game.load.image('sprite', 'assets/sprites/sprite.png');
 };
 
@@ -16,7 +17,8 @@ Game.create = function() {
   Game.playerMap = {};
 
   var map = game.add.tilemap('map');
-  map.addTilesetImage('tilesheet', 'tileset');
+  map.addTilesetImage('TILESfinal', 'tileset');
+  map.addTilesetImage('Tileset 2', 'tileset2');
 
   var layer;
   for (var i = 0; i < map.layers.length; i++) {
